@@ -501,7 +501,7 @@ response = email.view 'user@example.com', 'message-id'
 
 #### Email Target
 
-Endpoint: `GET /email/target`
+Endpoint: `POST /email/target`
 
 ```ruby
 email = Iterable::Email.new
